@@ -1,0 +1,46 @@
+.img-responsive{
+	width: 1200px;
+	max-height: 400px;
+	padding-left: -100px;
+}
+
+h2{
+	padding-top: 30px;
+	text-align:center;
+}
+
+h4{
+	text-align: center;
+}
+
+.onimg{
+	font-size: 40px;
+	color: white;
+	float: right;
+	margin-right: 90px;
+	margin-top: 90px;
+}
+
+.fix{
+	background-image: url("screen.jpg");
+	min-height: 500px; 
+	padding-top: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.fix2{
+	background-image: url("sentipic.png");
+	height: 600px; 
+	width: 100%;
+	background-size: 900px 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+	}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEWS</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="stylesheet" href="css/stylescroll.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.jpg" height="30px" width="100px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="snip1275" style="text-align: right; padding-top: 5px;">
+  <li><a href="#newspaperimg">Home</a></li>
+  <li><a href="#about">ABOUT</a></li>
+  <li><a href="#mod">MODULES</a></li>
+  <li><a href="#par2">WORKING</a></li>
+  <li><a href="http://localhost/news/extract.php" target="_blank">ARTICLES</a></li>
+    </div>
+ </div>
+</nav>  
+
+
+<div class="jumbotron text-center">
+<div class="container">
+  <img id="newspaperimg" class="img-responsive" src="newspapers.jpg" alt="newspaper" width="400px" height="345px"> 
+</div>	
+<h1> Taking the sentiment out of NEWS </h1>
+</div>
+
+<p id="about" ></p>
+
+
+<div class="container" style="padding: 140px;">
+  <div class="page-header">
+    <h1 style="text-align: center;">WHAT'S DIFFERENT FROM NORMAL NEWS?</h1>      
+  </div>
+  <br>
+  <h3>Every piece of information consists of <span style="color: green;">words</span> which have <span style="color: red; ">emotion</span>, those words weigh the emotional context of the overall text.</h3>  
+  <br>
+  <h3>Those words can form the basis of how the content reflects the writers perspective.</h3>
+  <br>
+  <h3>Our aim is to utilize the emotional content and classify the news articles into positive and negative news</h3>
+</div>
+
+
+<div class="fix">
+	<h1 class="onimg"><span style="color: powderblue;">Sentiment Analysis</span> using <span style="color: red;">Python</span></h1>
+</div>
+
+<p id="mod" ></p>
+<div class="container" style="padding: 100px;">
+	<div class="page-header">
+		<h1 style="text-align: center;">MODULES</h1>
+	</div>
+	<br>
+	<h3>-> Natural Language ToolKit (NLKT) module for text Processing.</h3>
+	<h3>-> We used about 10k Feature sets to train and test the Classifier.</h3>
+	<h3>-> Built-in classfiers were used to improve the Accuracy.</h3>
+	<h3>-> Pickle module has been used for faster Analysis.</h3>
+	<h3>-> Newspaper module to Scrape News Articles</h3>
+	<h3>-> Pymysql module to interact with the database</h3>
+	<br>
+</div>
+
+<div class="fix2">
+</div>
+
+<div id="par2" class="jumbotron text-center">
+	<h1>How it Works</h1>
+
+</div>
+
+<div class="container" style="padding: 20px;">
+	
+	<br>
+	<h3>-> News Articles from News websites are scraped.</h3>
+	<h3>-> Sentiment code is Written in Python, using NLTK.</h3>
+	<h3>-> Using this script, Sentiment is calculated for each article.</h3>
+	<h3>-> MySQL Database is updated through pymysql with this new information.</h3>
+	<h3>-> PHP script retrieves the Articles and displays them.</h3>
+	<h3>-> Each time the code is run, New articles are updated.</h3>
+	<br>
+</div>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/scroll.js"></script>
+
+</body>
+</html>
